@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blogger</title>
+		<!-- css imports -->
+		<link href="../assets/css/main.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+		<!-- Imports needed by polymer-->
+		<script src="bower_components/platform/platform.js"></script>
+		<link rel="import" href="bower_components/core-icons/core-icons.html">
+		<link rel="import" href="bower_components/paper-button/paper-button.html">
+		<link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+		<link rel="import" href="bower_components/">
+		<link rel="import" href="bower_components/paper-fab/paper-fab.html">
+		<link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html">
+		<link rel="import" href="bower_components/paper-toast/paper-toast.html">
+		<link rel="import" href="bower_components/core-icons/communication-icons.html">
+		<link rel="import" href="bower_components/core-icon/core-icon.html">
+		<link rel="import" href="bower_components/core-icons/social-icons.html">
+		<link rel="import" href="bower_components/core-icons/hardware-icons.html">
+		<link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
+	</head>
+	<body>
+		<!-- Header section of the blog , contains navigation-->
+		<div class="header-cont">
+			<header>
+				<div class="top">
+					<h1>BLOGGER</h1>
+					<!-- Nav button-->
+					<div class="slash">
+						<paper-button class="nav">Categories</paper-button>//
+						<paper-button class="nav">Trending</paper-button>//
+						<paper-button class="nav">New</paper-button>//
+						<paper-button class="nav">
+							<core-icon icon="search"></core-icon>
+						</paper-button>
+					</div>
+				</div>
+			</header>
+		</div>
+		<div id="up"></div>
+		<!-- Main page content -->
+		<div class="main">
+			<paper-shadow z="1"></paper-shadow>
+			<h2>Feed</h2>
+			<paper-fab icon="add" class="add" style="background-color: #FF9800;"></paper-fab>
+			<a href="#up"><paper-fab icon="hardware:keyboard-arrow-up" class="up" style="background-color: #F44336;">
+			</paper-fab></a>
+			<!-- Content -->
+			<div class="square1">
+				<paper-shadow z="3"></paper-shadow>
+			</div>
+			<div class="square2">
+				<paper-shadow z="3"></paper-shadow>
+			</div>
+			<div class="square3">
+				<paper-shadow z="3"></paper-shadow>
+			</div>
+		</div>
+		<!-- Footer -->
+		<ooter>
+			<ul>
+				<h3>Contact</h3>
+				<a href="https://mail.google.com/mail/u/0/#inbox"><li><core-icon icon="mail" class="footerIcon" id="topLi"></core-iconb></li></a>//
+				<a href="http://s.wsj.net/public/resources/images/PJ-BR471_PTECHj_DV_20131105183833.jpg"><li><core-icon icon="communication:call" class="footerIcon"></core-icon></li></a>//
+				<a href="https://twitter.com/_Andrew_Heaney"><li><core-icon icon="social:post-twitter" class="footerIcon"></core-icon></li></a>
+			</ul>
+			</footer>
+	</body>
+
+</html>

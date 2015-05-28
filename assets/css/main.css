@@ -1,0 +1,152 @@
+body {
+	background-color: #FFECDB;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+h1 {
+	position: absolute;
+	font-size: 100px;
+	font-weight: 300;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	top: 30px;
+	right: 0px;
+	left: 0px;
+	margin: 0 auto;
+
+}
+.slash {
+	position: relative;
+	top: 130px;
+}
+h2 {
+	color: #2C3E50;
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-top: 90px;
+	padding: 5px;
+	padding-right: 8px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+paper-button {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: -60px;
+	fill:true;
+}
+.nav::shadow #ripple {
+  color: #FFECDB;
+}
+header {
+	background-color: #36D7B7;
+	padding-bottom: 20px;
+	height: 100%;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+.header-cont {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+.top {
+	background-color: #36D7B7; 
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100%;
+	padding: 50px 50px 250px 50px;
+	padding-top: 30px;
+}
+footer {
+	background-color: #36D7B7;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	height: 60px;
+	padding-bottom: 10px;
+}
+ul {
+	text-decoration: none;
+	display: inline;
+}
+li {
+	display: inline;
+	margin: 20px;s
+	padding: 20px 20px 0px 20px;
+	font-family: 'Lobster Two', cursive;
+	text-align: center;
+
+}
+.footerIcon {
+	color: white;
+	height: 40px;
+	width: 40px;
+}
+.footerIcon:hover {
+	color: #2C3E50;
+}
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin-top: -50px;
+	margin-bottom: 9px;
+}
+.square1 {
+	background: url('https://s-media-cache-ak0.pinimg.com/736x/0a/5f/7f/0a5f7fbbe4164ca5d95b215b6f4d9c09.jpg');
+	height: 400px;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 200px;
+	border-radius: 5%;
+}
+.square2 {
+	background: url('http://image.naldzgraphics.net/2011/04/6-calm-sea-long-exposure-photography.jpg');
+	height: 400px;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 200px;
+	border-radius: 5%;
+}
+.square3 {
+	background: url('http://38.media.tumblr.com/52ce5deb65d88e7b512ce419c5befa98/tumblr_ne9us8k2p01tgmvjco1_500.jpg');
+	height: 400px;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 200px;
+	border-radius: 5%;
+}
+.ss1 {
+	width: 400px;
+	height:200px;
+	background-color: white;
+	margin: 0 auto;
+	margin-bottom: -100px;
+}
+.main {
+	background-color: white;
+	width: 80%;
+	height: 2000px;
+	margin: 0 auto;
+	border-right: 4%;
+	position: relative;
+	top: 200px;
+}
+.add {
+	position: fixed;
+	top: 450px;
+	right: 150px;
+
+}
+.up {
+	position: fixed;
+	top: 488px;
+	right: 150px;
+
+}
