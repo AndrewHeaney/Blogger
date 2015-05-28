@@ -1,2 +1,3 @@
 # Blogger
-Blogging website mockup that I created
+Blogging website mockup 
+visit http://andrewheaney.github.io/Blogger/ to see what it looks like
